@@ -1,0 +1,7 @@
+javac palindrome.java
+java palindrome 121
+java palindrome 122
+java palindrome -121
+java palindrome -122
+java palindrome 0
+java palindrome 321123
