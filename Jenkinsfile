@@ -4,7 +4,7 @@ pipeline{
 	stages{
 		stage('Preparation'){
 			steps{
-				git url: 'https://github.com/BharadwajAyinapurapu/Java_Jenkins.git' branch: 'main'
+				git url: 'https://github.com/BharadwajAyinapurapu/Java_Jenkins.git'
 			}
 		}
 		
