@@ -6,6 +6,7 @@ class palindrome{
 
 	}
 
+
 	public static boolean Palindrome(int x){
 		boolean ans;
 
