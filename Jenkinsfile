@@ -8,7 +8,7 @@ pipeline{
 			}
 		}
 		
-		stage('Build'){
+		stage('Execute'){
 			steps{
 				sh 'rm -rf Java.tar'
 				sh 'javac palindrome.java'
