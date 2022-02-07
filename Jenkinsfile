@@ -18,13 +18,13 @@ pipeline{
 
 		stage('Test'){
 			steps{
-				sh './testcases.txt'
+				sh 'bash maincode.sh'
 			}
 		}
 
 		stage('Build'){
 			steps{
-				sh 'tar -cvf Java.tar palindrome.java palindrome.class testcases.txt'
+				sh 'tar -cvf Java.tar palindrome.java palindrome.class testcases.txt actual out maincode.sh Jenkinsfile'
 				archiveArtifacts artifacts: 'Java.tar'
 			}
 		}
