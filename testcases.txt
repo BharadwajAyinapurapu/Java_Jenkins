@@ -1,5 +1,5 @@
 javac palindrome.java
-java palindrome 121
+java palindrome 151
 java palindrome 122
 java palindrome -121
 java palindrome -122
